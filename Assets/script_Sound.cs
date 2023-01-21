@@ -16,6 +16,15 @@ public class script_Sound : MonoBehaviour{
 
     [SerializeField] GameObject target;
 
+    public GameObject EndTextObject;
+    public GameObject Target;
+
+    private void OnTriggerEnter(Collider other){  //何かが衝突した時
+        //other.gameObject.SetActive(false);  //衝突したオブジェクトを消滅
+        Target.SetActive(false);  //衝突したオブジェクト(Player)を消滅
+        EndTextObject.SetActive(true);  //EditTextを生成
+    }
+
     // Start is called before the first frame update
     void Start(){
         count = 0;
