@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class TitleScene_ : MonoBehaviour{
+public class titleScene_he : MonoBehaviour{
     
     void Start(){
         Invoke("ChangeScene", 1.5f);
+        //this.SetActive(false);
     }
 
     void Update(){
