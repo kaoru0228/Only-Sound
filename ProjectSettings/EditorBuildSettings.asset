@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Kaoru_firder/kaoru.unity
+    guid: 180fbe60cce08554b86df46df7677a4a
+  - enabled: 1
+    path: Assets/Kaoru_firder/Title.unity
+    guid: aa23efc2f617e954d93117359b5b4a3a
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4349433c80391154483da62d38f97308, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 68a3b05417eef214ca32154f73444917, type: 2}
