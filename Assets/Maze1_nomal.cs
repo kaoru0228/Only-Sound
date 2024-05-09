@@ -10,7 +10,7 @@ public class Maze1_nomal : MonoBehaviour{
     
     private void OnTriggerEnter(Collider other){  //何かがすり抜けた時
         SceneManager.LoadSceneAsync("kaoru");
-        Debug.Log("aaa");
+        //Debug.Log("aaa");
     }
     void Start(){
         //Invoke("ChangeScene", 1.5f);
